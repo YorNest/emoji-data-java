@@ -13,7 +13,8 @@ enum class Category(val dataName: String) {
     PLACES("Travel & Places"),
     ACTIVITY("Activities"),
     FLAGS("Flags"),
-    SKIN_TONES("Skin Tones");
+    SKIN_TONES("Skin Tones"),
+    COMPONENT("Component");
 
     companion object {
         @JvmStatic
